@@ -62,6 +62,15 @@ p {
     color: #8e8585;
 }
 
+.p_info {
+    font-size: 16px;
+    color:#ffffff;
+    opacity: 0.7;
+    font-weight: 400;
+    margin-top: 5vh;
+    line-height: 30px;
+}
+
 .p_card {
     text-transform: uppercase;
     color: #1b1d1b;
@@ -79,6 +88,13 @@ p {
     text-transform: uppercase;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+.h1_info {
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 56px;
+
 }
 
 .h2_text {
@@ -155,6 +171,12 @@ p {
 
 .aside_right {
     text-align: right;
+}
+
+.aside_info {
+    width: 400px;
+    align-self: center;
+    /* padding-left: 7vw; */
 }
 
 .sec_card {
@@ -262,6 +284,13 @@ p {
 .img_above {
     height: 170px;
     width: 120px;
+}
+
+.img_info {
+    height: 650px;
+    width: 800px;
+    /* padding-right: 7vw; */
+    align-self: center;
 }
 
 .ul_circ {
