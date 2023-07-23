@@ -16,9 +16,31 @@ header {
     height: 12vh;
     align-items: center;
     margin-bottom: 0;
+    /* position: sticky; */
+    /* top: 0; */
+    z-index: 3;
+    transition: 0s;
+}
+
+.myHeader.fixed{
+    transition: 1s;
     position: sticky;
     top: 0;
-    z-index: 3;
+    transform: translateY(0%);
+}
+
+.myHeader.hide{
+    transition: 0s;
+    position: sticky;
+    top: 0;
+    transform: translateY(-100%);
+}
+
+.myHeader.above{
+    transition: 1s;
+    position: sticky;
+    top: 0;
+    transform: translateY(-100%);
 }
 
 h1 {
