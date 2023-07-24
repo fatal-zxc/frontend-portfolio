@@ -23,6 +23,7 @@ header {
 }
 
 .myHeader.fixed{
+    background-color: #1B1E1B;
     transition: 1s;
     position: sticky;
     top: 0;
@@ -30,6 +31,7 @@ header {
 }
 
 .myHeader.hide{
+    background-color: #1B1E1B;
     transition: 0s;
     position: sticky;
     top: 0;
@@ -37,6 +39,7 @@ header {
 }
 
 .myHeader.above{
+    background-color: #1B1E1B;
     transition: 1s;
     position: sticky;
     top: 0;
@@ -61,6 +64,18 @@ a {
     text-decoration: none;
     color: white;
     text-align: right;
+}
+
+.a_video {
+    background-image: url("https://thumb.tildacdn.com/tild6133-3638-4037-b339-316261643532/-/format/webp/1626879765189.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 0;
+    height: 650px;
+    width: 1000px;
+    align-self: center;
+    display: flex;
 }
 
 button {
@@ -112,11 +127,21 @@ p {
     margin-bottom: 10px;
 }
 
-.h1_info {
-    font-size: 45px;
-    font-weight: 700;
-    line-height: 56px;
+.p_video {
+    width: 460px;
+    height: 180px;
+    z-index: 1;
+    position: relative;
+}
 
+.p_card_2 {
+    width: 560px;
+}
+
+.h1_video {
+    width: 320px;
+    z-index: 1;
+    position: relative;
 }
 
 .h2_text {
@@ -154,6 +179,17 @@ p {
     margin-top: 0;
     text-align: left;
     justify-content: space-around;
+}
+
+.sec_video {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    background-color: #121312;
+    color: #ffffff;
+    margin-top: 0;
+    text-align: left;
+    justify-content: space-between;
 }
 
 .cupon {
@@ -198,7 +234,13 @@ p {
 .aside_info {
     width: 400px;
     align-self: center;
-    /* padding-left: 7vw; */
+}
+
+.aside_video {
+    width: 400px;
+    align-self: center;
+    left: calc(50% - 600px);
+    position: relative;
 }
 
 .sec_card {
@@ -313,6 +355,34 @@ p {
     width: 800px;
     /* padding-right: 7vw; */
     align-self: center;
+}
+
+.img_play {
+    position: relative;
+    align-self: center;
+    left: calc(50% - 50px);
+    width: 100px;
+    height: 100px;
+}
+
+.img_card_left {
+    display: block;
+    height: 350px;
+    width: 550px;
+    background-image: url("https://thumb.tildacdn.com/tild3865-6233-4633-a365-356630666466/-/format/webp/6ZZ_8725_1.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.img_card_right {
+    display: block;
+    height: 350px;
+    width: 550px;
+    background-image: url("https://thumb.tildacdn.com/tild6535-6262-4635-b663-303030396631/-/format/webp/IMG_0944_1.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 
 .ul_circ {

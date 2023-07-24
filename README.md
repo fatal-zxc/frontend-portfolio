@@ -5,3 +5,4 @@ Here are some examples of websites I have made
 > my telegram: @fatal_zxc<br>
 > my discord: fatal_zxc<br>
 > my twitter: @fatal_zxc<br>
+> my codewars: https://www.codewars.com/users/fatal_zxc
