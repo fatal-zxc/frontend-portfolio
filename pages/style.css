@@ -67,7 +67,6 @@ a {
 }
 
 .a_video {
-    background-image: url("https://thumb.tildacdn.com/tild6133-3638-4037-b339-316261643532/-/format/webp/1626879765189.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -76,6 +75,14 @@ a {
     width: 1000px;
     align-self: center;
     display: flex;
+}
+
+.a_video_gidro {
+    background-image: url("https://thumb.tildacdn.com/tild6133-3638-4037-b339-316261643532/-/format/webp/1626879765189.jpg");
+}
+
+.a_img_trav {
+    background-image: url("https://thumb.tildacdn.com/tild3233-3432-4462-b138-636330343935/-/format/webp/Group_236.jpg");
 }
 
 button {
@@ -87,6 +94,7 @@ p {
     font-size: 18px;
     font-weight: 400;
     letter-spacing: 0.3px;
+    line-height: 25px;
 }
 
 .p_text {
@@ -138,10 +146,25 @@ p {
     width: 560px;
 }
 
+.p_statistika {
+    line-height: 21px;
+    font-size: 13px;
+}
+
 .h1_video {
     width: 320px;
     z-index: 1;
     position: relative;
+}
+
+.h1_inside {
+    font-size: 40px;    
+}
+
+.h1_small {
+    line-height: 30px;
+    font-size: 23px;
+    padding: 20px 0 20px 0;
 }
 
 .h2_text {
@@ -210,6 +233,31 @@ p {
     text-align: center;
 }
 
+.sec_left {
+    margin-left: 5vw;
+}
+
+.sec_right {
+    margin-right: 5vw;
+}
+
+.sec_back {
+    background-image: url("https://thumb.tildacdn.com/tild3133-3461-4965-b836-386238656238/-/format/webp/Group_425.jpg");
+    height: 500px;
+    width: 100%;
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.sec_inside {
+    display: flex;
+    /* padding-left: 10vw; */
+    width: 50vw;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
 .aside_models {
     display: flex;
     justify-content: space-between;
@@ -241,6 +289,37 @@ p {
     align-self: center;
     left: calc(50% - 600px);
     position: relative;
+}
+
+.aside_small {
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;    
+    text-align: center;
+    width: 220px;
+}
+
+.aside_center {
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    border-right: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 0px 150px 0px 150px;
+    width: 220px;
+}
+
+.aside_back {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: left;
+    width: 30vw;
 }
 
 .sec_card {
@@ -367,22 +446,47 @@ p {
 
 .img_card_left {
     display: block;
-    height: 350px;
-    width: 550px;
-    background-image: url("https://thumb.tildacdn.com/tild3865-6233-4633-a365-356630666466/-/format/webp/6ZZ_8725_1.jpg");
     background-size: cover;
-    background-position: center center;
     background-repeat: no-repeat;
 }
 
 .img_card_right {
     display: block;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img_card_podsvetka {
+    background-image: url("https://thumb.tildacdn.com/tild3865-6233-4633-a365-356630666466/-/format/webp/6ZZ_8725_1.jpg");
+    background-position: center center;
     height: 350px;
     width: 550px;
+}
+
+.img_card_truba {
     background-image: url("https://thumb.tildacdn.com/tild6535-6262-4635-b663-303030396631/-/format/webp/IMG_0944_1.jpg");
-    background-size: cover;
     background-position: center center;
-    background-repeat: no-repeat;
+    height: 350px;
+    width: 550px;
+}
+
+.img_card_podstavka {
+    background-image: url("https://thumb.tildacdn.com/tild3234-3231-4263-b031-633737356332/-/format/webp/IMG_1041.jpg");
+    height: 700px;
+    width: 560px;
+    background-position: center bottom;
+}
+
+.img_card_brevna {
+    background-image: url("https://thumb.tildacdn.com/tild6334-3632-4565-a465-393466366563/-/format/webp/IMG_0714.jpg");
+    height: 700px;
+    width: 560px;
+    background-position: center bottom;
+}
+
+.img_small {
+    height: 60px;
+    width: 60px;
 }
 
 .ul_circ {
@@ -407,6 +511,10 @@ p {
     padding: 0;
 }
 
+.video_frame {
+    height: 800px;
+}
+
 #free_r {
     font-size: 14px;
     padding-top: 10px;
@@ -424,6 +532,18 @@ p {
 #large_people {
     margin-top: 10px;
     width: 130px;
+}
+
+#sec_black_large {
+    height: 120vh;
+}
+
+#sec_black_small {
+    height: 50vh;
+}
+
+#btn_back {
+    width: 190px;
 }
 
 /* For laptop */
